@@ -127,9 +127,8 @@ const CreatorDashboard = ({
       setStats(creatorStats);
 
       // Get creator collections
-      const creatorCollections = await CollectionsService.getCollectionsByCreator(
-        creatorAddress
-      );
+      const creatorCollections =
+        await CollectionsService.getCollectionsByCreator(creatorAddress);
       setCollections(creatorCollections as unknown as Collection[]);
 
       // Get active auctions

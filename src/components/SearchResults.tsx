@@ -226,8 +226,8 @@ const SearchResults = ({ query, onClose }: SearchResultsProps) => {
                         {nft.title}
                       </h3>
                       {nft.isVerified && (
-            <div className="w-4 h-4 bg-secondary rounded-full flex items-center justify-center">
-              <span className="text-xs text-secondary-foreground">
+                        <div className="w-4 h-4 bg-secondary rounded-full flex items-center justify-center">
+                          <span className="text-xs text-secondary-foreground">
                             ✓
                           </span>
                         </div>
